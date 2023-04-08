@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .card-keahlian{
+        @apply w-[180px] h-[60px] border-[#293548] font-roboto gap-3 border-[3px] text-[20px] rounded flex justify-start pl-2 text-white items-center;    
+    }
+    .tuts-piano-putih{
+        @apply bg-white h-60 cursor-pointer font-Gloock text-lg flex justify-center items-end pb-5 rounded-xl drop-shadow-[2px_3px_3px_#1A1A18] active:drop-shadow-none active:translate-x-[2px]
+    }
+    .tuts-piano-hitam{
+        @apply text-white cursor-pointer font-Gloock w-12 rounded bg-[#0F0E0E] h-40 text-sm justify-center items-end flex pb-3 drop-shadow-[2px_3px_3px_#1A1A18] active:drop-shadow-none active:translate-x-[2px]
+    }
+}
